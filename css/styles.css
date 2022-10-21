@@ -1,0 +1,204 @@
+:root {
+    --primary-text-color:#757575;
+    --secondary-text-color:#212121;
+    --third-text-color:#2196F3;
+    --primary-background-color:#F5F5F5;
+    --secondary-background-color:#F5F4FA;
+    --third-background-color:#2F303A;
+    --white-color:#ffffff;
+    --button-active-color:#188CE8;
+    --black-color:#000000;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+    
+}
+
+ul {
+	list-style: none;
+}
+/* ----------HEADER----------- */
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    color: var(--third-text-color)
+}
+.logo-part {
+    color: var(--black-color);
+}
+
+.link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.link:hover, .link:focus {
+    color: var(--third-text-color);
+}
+
+.navigation-link {
+    color: var(--secondary-text-color);  
+}
+
+.contact-link {
+    color: var(--primary-text-color);
+}
+
+.navigation-link.current {
+    color: var(--third-text-color);
+}
+
+/* ----------MAIN------------- */
+
+/* temp background: */
+.hero{ 
+    background-color: var(--black-color);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color:var(--white-color);
+}
+.hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--white-color);
+    background: var(--third-text-color);
+    border: none;
+    border-radius: 4px;
+}
+
+.button:hover, .button:focus {
+   background-color: var(--button-active-color);
+   color: var(--white-color);
+}
+
+/* ----------SPECIALS------------ */
+
+.hidden-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* .section-primary {
+    background-color: var(--primary-background-color);
+} */
+
+.specials-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--secondary-text-color);
+}
+
+.text {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--primary-text-color)
+}
+
+/* ---------CHIM ---------- */
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.66;
+    color: var(--secondary-text-color)
+}
+
+/* -----------TEAM------------ */
+
+.section-secondary {
+    background-color: var(--secondary-background-color);
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--secondary-text-color)
+}
+
+/* ----------FOOTTER--------- */
+
+.footer-bg {
+    background-color: var(--third-background-color);
+}
+
+.footer-stile {
+    font-style:normal;
+}
+
+.logo-footer {
+    color: var(--white-color);
+}
+
+.footer-address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--white-color);
+}
+
+.footer-link {
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* -----------PORTFOLIO--------------- */
+
+.portfolio-button {
+    font-family:inherit;
+    background: var(--secondary-background-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    color:var(--secondary-text-color);
+    border: none;
+    border-radius: 4px;
+}
+
+.portfolio-link {
+    text-decoration: none;
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--secondary-text-color);
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--primary-text-color);
+}
